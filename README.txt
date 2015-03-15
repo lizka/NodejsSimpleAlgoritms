@@ -1,4 +1,4 @@
-1.Use command to install optimist
+1. To install optimist use command 
 sudo npm install optimist --save-dev
 
 2. Tasks

@@ -1,41 +1,31 @@
-1.Please use command to install optimist
+1.Use command to install optimist
 sudo npm install optimist --save-dev
 
-2. Tested data
+2. Tasks
 
-q1/inputs.text
+Q1
+Write a program that, when given a list of words separated by spaces, outputs the words in reverse order.
+The input may contain multiple lines, consider each line of the input to be a separate set of words, and output each set of words on a new line.
 
-Welcome to William Hill
-Enjoy the test
-Regards from lizka
 
-q2/inputs.text
+Q2
+In the UK there are coins with the following denominations: 1p, 2p, 5p, 10p, 20p, 50p, £1 (100p), £2 (200p)
+We can make 3p using the following two distinct combinations: 1p + 1p + 1p
+1p + 2p
+Write a program that, when given an input Xp, outputs the number of distinct ways Xp can be produced using UK coins. You may expect the input to contain a single number for X on each line. Each type of coin may be used an arbitrary number of times.
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-200
-111
-13
 
-q3/inputs.text
+Q3
+Write a program that, when given two months, outputs the number of months in between that contain five Sundays.
+This is inclusive, for example given an input of “September 2013 December 2013”, your program should consider September, October, November and December 2013.
+The dates will be provided as two pairs of months and years separated by spaces, per line, and the input may contain multiple lines.
 
-September 2013 December 2013
-January 2015 February 2015
-January 2015 March 2015
-January 2015 December 2015
 
-q4/inputs.text
-
-2 4
--100 100
-0 10
-2 2
--1 5
+Q4
+Given two integers x and y, we can calculate all combinations of x and y when given an upper and lower bound for their values. For example, using 2 and 4 as the lower and upper bounds for x and y gives us the following pairs of x and y: {2,2} {2,3} {2,4} {3,2} {3,3} {3,4} {4,2} {4,3} {4,4} .
+𝑦 For each of these pairs, we can calculate 𝑥 .
+22 =4,23 =8,24 =16,32 =9,33 =27, 34 =81,42 =16,43 =64,44 =1024 Removing duplicate values, we get:
+4, 8, 9, 16, 27, 64, 81, 1024
+This is 8 distinct terms.
+Write a program that, when given two integer bounds as input, outputs the number of distinct values of 𝑥𝑦.
+You may expect each pair of bounds on a single line, separated by a space. The input may contain multiple lines.
